@@ -60,9 +60,12 @@ hr:hover{
 
 
 .topcontainer{
+    position: relative;
     background-color: rgb(214, 243, 227);
-    top: 20px;
     padding-top: 80px;
+    margin: 0;
+    display: inline-block;
+    width: 100%;
 }
 
 .middlecontainer{
@@ -93,19 +96,17 @@ hr:hover{
 }
 
 .cloud{
-    height: 80px;
-    width: auto;
+    width: 200px;
     position: absolute;
     top: 20px;
-    right: 450px;
+    right: 350px;
 }
 
 .cloud2{
-    height: 80px;
-    width: auto;
+    width: 200px;
     position: absolute;
-    left: 350px;
-    bottom: 350px;
+    left: 330px;
+    bottom: 430px;
 }
 
 .mountain{
